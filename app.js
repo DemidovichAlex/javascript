@@ -78,7 +78,7 @@
     //console.log('Курс не получился')
 //}
 
-const isReady = true
+//const isReady = true
 
 //if (isReady === true) {
    // console.log('Все готово!')
@@ -87,7 +87,7 @@ const isReady = true
 //}
 //if (isReady === true) = if (isReady)
 // тернарное выражение стр. 90 = стр. 83-88
-isReady ? console.log('Все готово!') : console.log('Все не готово!')
+//isReady ? console.log('Все готово!') : console.//log('Все не готово!')
 
 
 //const num1 = 42 //numder
@@ -97,6 +97,21 @@ isReady ? console.log('Все готово!') : console.log('Все не гот�
 // == приводит к одному типу данных. В данном случае приводит к типу данных строка и проверяет их значению (ответ true); === для тогоЮ чтобы проверялось не только по значению но и еще и по типу данных (ответ false)
 
 // 7 Булевая логика
+ // смотри mdn
+
+ // Функциии
+ function calculateAge(year) {
+return 2020 - year
+ }
+
+ //const myAge = calculateAge( 1993 )
+ //console.log(calculateAge(1993))
+ //console.log(calculateAge(1986))
+ //console.log(calculateAge(2030))
+
+ function logInfoAbout(name, year) {
+const age = calculateAge(year)
+ }
 
 
 
